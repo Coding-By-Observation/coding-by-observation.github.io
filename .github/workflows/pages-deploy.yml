@@ -31,7 +31,8 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          # submodules: true
+          submodules: true 
+          # <-- 2025/01/24 12:45 (ref: https://github.com/cotes2020/chirpy-static-assets/tree/b9e18a1510e3be5de250ed34205da318b76474e0)
           # If using the 'assets' git submodule from Chirpy Starter, uncomment above
           # (See: https://github.com/cotes2020/chirpy-starter/tree/main/assets)
 
